@@ -9,7 +9,7 @@ if (process.env.MY_SECRET) {
 }
 
 createServer(app).listen(3000, () => {
-  console.log("Api Server listening on port http://localhost:3000");
+  console.log("Api Server listening on port 3000");
 });
 
 ["SIGINT", "SIGTERM", "SIGQUIT"].forEach((signal) =>
